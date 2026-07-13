@@ -1,0 +1,14 @@
+name: Validate skill
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    uses: lovstudio/dev-skills/.github/workflows/validate-skill.yml@main
+    with:
+      skill_name: lovstudio-mobile-adapt
