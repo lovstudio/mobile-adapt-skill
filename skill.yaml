@@ -1,5 +1,5 @@
 schema: skill-manifest/v1
-id: sgc-mobile-adapt
+id: lov-mobile-adapt
 version: 0.1.0
 runtime: skill-runtime/v1
 context:
