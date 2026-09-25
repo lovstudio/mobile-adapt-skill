@@ -11,13 +11,15 @@ license: MIT
 compatibility: >
   Requires Python 3.8+ (no external dependencies).
   Works with any web project: React, Vue, Next.js, Nuxt, Svelte, plain HTML/CSS.
+depends_on:
+  - lov-branding-consistency
 metadata:
   author: contributors
-  version: "0.2.0"
+  version: "0.2.1"
   tags: mobile, responsive, safe-area, overflow, navigation
 ---
 
-# mobile-adapt — Mobile-First Adaptation for Web Projects
+# 移动适配师 · Mobile Fit
 
 Scan and fix mobile adaptation issues in an existing web project: viewport
 configuration, overflow prevention, safe area handling, responsive breakpoints,
